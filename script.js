@@ -14,10 +14,6 @@ function convertToBinary(x) {
         i = i * 10;
     }
     console.log(`Binary: ${bin}`);
-}
-
-// take input
-let number = prompt('Enter a decimal number: ');
 
 convertToBinary(number);
 	
@@ -26,4 +22,4 @@ convertToBinary(number);
 	
 }
 
-window.decimalToBinary = decimalToBinary;
+// window.decimalToBinary = decimalToBinary;
